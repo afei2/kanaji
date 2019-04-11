@@ -1,0 +1,150 @@
+.main_left {
+	width: 250px;
+	float: left;
+	padding: 0 26px 0 14px;
+}
+.main_left h3 {
+	font-size: 36px;
+	color: #333;
+	text-align: center;
+	margin:64px 0 18px 0;
+}
+.main_left em{
+	font-size: 13px;
+	color: #999;
+	text-align: center;
+	display: block;
+	margin-bottom: -12px;
+}
+.main_left div {
+	width: 250px;
+	height: 545px;
+	background: url(../img/bg34.png);
+}
+.main_left div ul {
+	padding-top: 45px;
+}
+.main_left div ul li {
+	padding: 0 0 43px 39px;
+}
+.main_left div ul li.open p{
+	color: #cc0000;
+}
+.main_left div ul li img{
+	display: block;
+	float: left;
+	margin-right: 8px;
+}
+.main_left div ul li p {
+	font-size: 18px;
+	color: #333;
+	float: left;
+}
+.main_left div ul li i{
+	font-size: 12px;
+	color: #aaa;
+	display: block;
+}
+.main_left h6 {
+	margin: 0 25px 0 30px;
+	padding-top: 30px;
+	font-size: 16px;
+	color: #666;
+	line-height: 26px;
+	text-align: center;
+	border-top: 1px solid #d2d2d2;
+}
+.main_right {
+	width: 910px;
+	float: right;
+
+}
+.main_right h2 {
+	float: right;
+	margin: 20px 10px 0 0;
+	color: #999;
+}
+.main_right h2 a {
+	color: #999;
+}
+.main_right ul {
+	width: 890px;
+	margin: 0 auto;
+	padding-top: 115px;
+}
+.main_right ul li{
+	border-bottom: 1px solid #dddddd;
+	padding: 18px 0 25px 0;
+}
+.main_right ul li img {
+	float: left;
+	margin-right: 20px;
+}
+.main_right ul li div {
+	float:left;
+	width: 510px;
+}
+.main_right ul li div h6 {
+	font-size: 18px;
+	color: #333;
+}
+.main_right ul li div p {
+	color: #666;
+	margin: 22px 0 25px 0;
+	line-height: 24px;
+}
+.main_right ul li div a {
+	display: block;
+	font-size: 16px;
+	color: #aaa;
+	width: 124px;
+	line-height: 38px;
+	text-align: center;
+	border: 1px solid #aaa;
+}
+.main_right ul li h4 {
+	float: right;
+	font-size: 50px;
+	color: #808080;
+	width: 78px;
+	height: 78px;
+	text-align: center;
+	border: 1px solid #ccc;
+	margin-top: 37px;
+}
+.main_right ul li h4  i{
+	display: block;
+	font-size: 16px;
+}
+.main_right ul li:hover h6{
+	color: #cc0000;
+}
+.main_right ul li:hover a{
+	color: #cc0000;
+	border-color: #cc0000;
+}
+.main_right h5 {
+	text-align: center;
+	margin: 30px 0 87px 0;
+}
+.main_right h5 a {
+	display: block;
+	width: 126px;
+	line-height: 40px;
+	color: #fff;
+	background: #cc0000;
+	margin: 0 auto;
+}
+.main_right ul li em {
+	font-size: 16px;
+	color: #333;
+}
+.main_right ol {
+	padding-top: 90px;
+}
+.main_right ol li{
+	float: left;
+	width: 268px;
+	margin-right: 50px;
+	margin-top: 43px;
+}

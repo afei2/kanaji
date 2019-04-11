@@ -1,0 +1,392 @@
+.course_1 {
+	padding: 0 10px;
+}
+.course_1 h3 {
+	font-size: 48px;
+	color: #333;
+	text-align: center;
+	margin-bottom: 32px;
+}
+.course_1 ul li {
+	float: left;
+	margin-bottom:40px; 
+}
+.course_1 ul li:hover div p {
+	background: url(../img/cb_1.png);
+}
+.course_1 ul li div{
+	width: 370px;
+	height: 260px;
+	position: relative;
+	overflow: hidden;
+}
+.course_1 ul li div p{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: url(../img/cb_2.png);
+	font-size: 20px;
+	color: #fefefe;
+	line-height: 90px;
+	text-align: center;
+}
+.course_1 ul li i {
+	text-align: center;
+	margin-top: 30px;
+	display: block;
+	font-size: 18px;
+	color: #333;
+}
+.course_2  {
+	margin-bottom:80px;
+}
+.course_2 h3 {
+	margin: 60px 0 0 0;
+	font-size: 48px;
+	color: #333;
+	text-align: center;
+}
+.course_2 ul li {
+	width: 100%;
+	background: #d94040;
+	margin-top: 30px;
+}
+.course_2 ul li img{
+	float: left;
+}
+.course_2 ul li div {
+	float: left;
+	margin-left: 40px;
+}
+.course_2 ul li div  h6 {
+	font-size: 30px;
+	color: #fff;
+	margin-top: 30px;
+}
+.course_2 ul li div em {
+	width: 750px;
+	display: block;
+}
+.course_2 ul li div p{
+	float: left;
+	width: 218px;
+	height: 43px;
+	border:1px solid #d2d2d2;
+	font-size: 16px;
+	color: #eee;
+	text-align: center;
+	line-height: 43px;
+	margin-top:21px;
+}
+.course_2 ul li div p:hover {
+	background-color: #ffb400;
+	border-color: #ffb400;
+}
+.course_2 ul li div i {
+	display: block;
+	margin-top: 25px;
+}
+.course_2 ul li div i a {
+	display: inline-block;
+	width: 150px;
+	height: 35px;
+	background: #ffb400;
+	border-radius: 5px;
+	line-height: 35px;
+	text-align: center;
+	margin-right: 20px;
+	font-size: 18px;
+	color: #eee;
+}
+.course_3box {
+	background: #f7f7f7;
+	padding-top:60px; 
+}
+.course_3 h3 {
+	line-height: 179px;
+	text-align: center;
+	font-size: 60px;
+	color: #333;
+	background: url(../img/bg23.png) center no-repeat;
+}
+.course_3  img{
+	margin-left:80px;
+	float: left;
+}
+.course_3  ul {
+	margin-top: 113px;
+	float: left;
+}
+.course_3  ul li {
+	width: 620px;
+	line-height: 65px;
+	background: url(../img/bg24.png);
+	text-indent: 70px;
+	font-size: 30px;
+	color: #fefefe;
+	margin-top: 3px;
+}
+.course_4 {
+	height: 245px;
+	background: url(../img/bg26.png);
+	text-align: center;
+	padding-top: 55px;
+}
+.course_4 p {
+	font-size: 36px;
+}
+.course_4 i {
+	display: block;
+	font-size: 30px;
+	margin-top: 28px;
+}
+.course_4 em {
+	color: #cc0000;
+}
+.course_5box {
+	height: 375px;
+	background: url(../img/bg27.png) center;
+	text-align: center;
+}
+.course_5 h3{
+	font-size: 40px;
+	color: #fff;
+	padding-top: 42px;
+}
+.course_5 p {
+	font-size: 40px;
+	color: #fff;
+	margin:34px 0 16px 0;
+}
+.course_5 a {
+	display: block;
+	width: 240px;
+	line-height: 56px;
+	background: #ffb400;
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+	margin: 0 auto;
+}
+.course_5 a img {
+	margin: 17px 13px 0 0 ;
+}
+
+.course_6 h3 {
+	font-size: 60px;
+	color: #333;
+	padding: 88px 0 33px 0;
+	text-align: center;
+}
+.course_6 div {
+	width: 50%;
+	float: left;
+}
+.course_6 div ul {
+	margin:68px 32px 0 32px;
+}
+.course_6 div ul li  i{
+	display: block;
+	float: left;
+	font-size: 60px;
+	color: #cc0000;
+	margin-right: 20px;
+}
+.course_6 div ul li p {
+	float: left;
+	width: 480px;
+	font-size: 16px;
+	color: #404040;
+	line-height: 24px;
+}
+.course_7 h3 {
+	font-size: 60px;
+	color: #333;
+	padding: 62px 0 40px 0;
+	text-align: center;
+}
+.course_7 ul {
+
+}
+.course_7 ul li {
+	width: 284px;
+	height: 285px;
+	float: left;
+	text-align: center;
+	color: #fff;
+	margin-right:21px 
+}
+.course_7 ul li:last-child {
+	margin-right: 0;
+}
+.l1 {
+	background: url(../img/bg28.png);
+}
+.l2 {
+	background: url(../img/bg29.png);
+}
+.course_7 ul li p {
+	margin-top: 66px;
+	font-size: 24px;
+}
+.course_7 ul li i{
+	display: block;
+	margin-top: 47px;
+	font-size:16px; 
+}
+.course_7 h6 {
+	width: 530px;
+	margin: 0 auto;
+	margin-top: 35px;
+}
+.course_7 h6 a{
+	width: 244px;
+	line-height: 60px;
+	text-align: center;
+	display: block;
+	background: url(../img/bg30.png);
+	font-size:30px;
+	color: #fff;
+}
+.course_8box {
+	height: 820px;
+	background: url(../img/bg32.png) center;
+	margin-top: 60px;
+}
+.course_8 h3 {
+	font-size: 60px;
+	color: #ffb400;
+	padding: 74px 0 50px 0 ;
+	text-align: center;
+}
+.course_8 ul li {
+	width: 18%;
+	float: left;
+	text-align: center;
+	margin-right: 30px;
+}
+.course_8 ul li:last-child {
+	margin-right: 0;
+}
+.course_8 ul li i,.course_8 ol li i {
+	font-size:43px;
+	color: #cc0000; 
+}
+.course_8 ul li p,.course_8 ol li p {
+	font-size: 24px;
+	color: #333;
+	margin-top: 20px;
+	line-height: 34px;
+}
+.course_8 ol {
+	margin: 82px 0 0 123px;
+}
+.course_8 ol li {
+	width: 20%;
+	float: left;
+	text-align: center;
+	margin-right:30px;
+}
+.swiper_6 {
+	margin-top: 120px;
+}
+.swiper_6 img{
+	float: left;
+}
+.swiper_6  {
+	height: 290px;
+	width: 1190px;
+	border: 5px solid #cc0000;
+	border-radius: 5px;
+	padding:11px 0;
+}
+.course_9box {
+	background: #f5f5f5;
+}
+.course_9  {
+	margin-top: 225px;
+}
+.course_9 h3 {
+	font-size: 66px;
+	color: #ffb400;
+	padding:60px 0 40px 0;
+	text-align: center;
+}
+.course_9 img {
+	margin: 0 100px 0 143px;
+	float: left;
+}
+.course_9 h6 {
+	font-size: 30px;
+	color: #333;
+	margin: 45px 0 55px  0;
+}
+.course_9 p {
+	font-size: 18px;
+	color: #333;
+	line-height: 40px;
+}
+.course_9 a {
+	width: 310px; 
+	height: 50px;
+	display: block;
+	float: left;
+	color: #fff;
+	background-color: #cc0000;
+	font-size: 24px;
+	line-height: 50px;
+	text-align: center;
+	border-radius:3px; 
+	margin-top: 35px;
+}
+.course_10 h3 {
+	font-size: 60px;
+	color: #333;
+	padding:75px 0 30px 0;
+	text-align: center;
+}
+.course_11 h3 {
+	font-size: 60px;
+	color: #333;
+	padding:78px 0 28px 0;
+	text-align: center;
+}
+.course_11 div {
+	float: left;
+}
+.course_11 div ul li {
+	width: 100%;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	margin-top:3px;
+}
+.course_11 div ul li h6 {
+	background: #cf0d0d;
+	font-size: 24px;
+	color: #fff;
+}
+.course_11 div ul li p {
+	background: #fff7dd;
+	border:1px solid #eee;
+	font-size: 16px;
+	color: #333;
+}
+.course_12 ul {
+	margin: 40px 0 75px 0;
+}
+.course_12 ul li {
+	float: left;.
+	width: 98px;
+	text-align: center;
+	margin-right: 120px;
+}
+.course_12 ul li:last-child {
+	margin-right: 0;
+}
+.course_12 ul li p {
+	font-size: 20px;
+	color: #333;
+	margin-top: 13px;
+}
