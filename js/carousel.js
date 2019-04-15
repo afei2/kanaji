@@ -16,3 +16,9 @@ var mySwiper = new Swiper('.swiper_7 .swiper-container',{
   slidesPerView : 3,
   slidesPerGroup : 1,
 })
+var mySwiper = new Swiper('.swiper_02 .swiper-container', {
+  navigation: {
+    nextEl: '.swiper_02 .swiper-button-next',
+    prevEl: '.swiper_02 .swiper-button-prev',
+  },
+});

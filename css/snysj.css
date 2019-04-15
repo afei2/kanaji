@@ -1,0 +1,46 @@
+.com_h3{
+	font-size: 48px;
+	color: #333333;
+	text-align: center;
+}
+.main_1box {
+	background: #f8f8f6;
+}
+.main_1 h5 {
+	float: right;
+	color: #999;
+	margin: 20px 10px 0 0;
+}	
+.main_1 h5 a {
+	color: #999;
+}
+.main_1 h3 {
+	padding-top: 109px;
+}
+.main_1 h6 {
+	font-size: 30px;
+	color: #666666;
+	margin: 24px 0 28px 0;
+	text-align: center;
+}
+.main_1 ul li {
+	width: 212px;
+	height: 232px;
+	background: url(../img/bg98.png);
+	float: left;
+	margin-right: 30px;
+}
+.main_1 ul li:last-child {
+	margin-right: 0px;
+}
+.main_1 ul li p {
+	padding-top: 94px;
+	text-align: center;
+	font-size: 22px;
+	color: #333333;
+}
+.main_1 i {
+	display: block;
+	margin: 0 auto;
+	width: 618px;
+}

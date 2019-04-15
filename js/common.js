@@ -91,20 +91,28 @@ var gallerySwiper = new Swiper('.swiper_5 #gallery',{
   }
 })
 
-$(document).ready(function(){
-    var box = $(".footer_scrollbox");
-    var boxTop = box.offset().top;  //元素到页面顶部的距离
+// $(document).ready(function(){
+//     var box = $(".footer_scrollbox");
+//     var boxTop = box.offset().top;  //元素到页面顶部的距离
 
-    $(document).scroll(function(){
+//     $(document).scroll(function(){
 
-        var winScrollTop = $(window).scrollTop();  //获取窗口滚动的距离
-        console.log(winScrollTop);
-        if(winScrollTop > boxTop){
-            box.removeClass("fixed");
-        }else{
-            box.addClass("fixed");
+//         var winScrollTop = $(window).scrollTop();  //获取窗口滚动的距离
+//         console.log(winScrollTop);
+//         if(winScrollTop > boxTop){
+//             box.removeClass("fixed");
+//         }else{
+//             box.addClass("fixed");
             
-        }
+//         }
 
-    });
+//     });
+// });
+// 
+// 
+// 
+var h = $(".footer_scrollbox").offset().top;
+$(window).scroll(function () {
+    var t = $(document).scrollTop()
+    t > h ? $(".footer_scrollbox").removeClass("fixed") : $(".footer_scrollbox").addClass("fixed");
 });

@@ -1,0 +1,50 @@
+.main_1 {
+	margin-bottom: 88px;
+}
+.main_1 h5 {
+	float: right;
+	color: #999;
+	margin: 20px 10px 0 0;
+}	
+.main_1 h5 a {
+	color: #999;
+}
+.main_1 h3 {
+	padding: 98px 0 30px 0;
+	font-size: 48px;
+	color: #333333;
+	text-align: center;
+}
+
+.map {
+	width: 700px;
+	height: 450px;
+	float: left;
+	overflow: hidden;
+	border: 1px solid #bfbfbf;
+}
+.main_r{
+	float: left;
+	width: 450px;
+	margin-left: 40px;
+}
+.main_r h6 {
+	font-size: 26px;
+	color: #333333;
+	border-bottom: 2px solid #cc0000;
+	padding-bottom:25px
+}
+.main_r ul{
+	margin-top: 26px;
+}
+.main_r ul li img {
+	float: left;
+}
+.main_r ul li{
+	margin-top: 40px;
+}
+.main_r ul li p {
+	margin-left: 38px;
+	font-size: 18px;
+	color: #333;
+}
