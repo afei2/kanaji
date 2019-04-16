@@ -27,6 +27,9 @@ var app = new Vue({
    }
 });   
   
+$("#to-top").click(function () {
+        $('html , body').animate({scrollTop: 0}, 'slow');
+  });
 //轮播
 // var mySwiper1 = new Swiper(' .swiper-container', {
 // 	slidesPerView : 3,
@@ -91,28 +94,16 @@ var gallerySwiper = new Swiper('.swiper_5 #gallery',{
   }
 })
 
-// $(document).ready(function(){
-//     var box = $(".footer_scrollbox");
-//     var boxTop = box.offset().top;  //元素到页面顶部的距离
 
-//     $(document).scroll(function(){
 
-//         var winScrollTop = $(window).scrollTop();  //获取窗口滚动的距离
-//         console.log(winScrollTop);
-//         if(winScrollTop > boxTop){
-//             box.removeClass("fixed");
-//         }else{
-//             box.addClass("fixed");
-            
-//         }
 
-//     });
-// });
-// 
-// 
-// 
-var h = $(".footer_scrollbox").offset().top;
-$(window).scroll(function () {
-    var t = $(document).scrollTop()
-    t > h ? $(".footer_scrollbox").removeClass("fixed") : $(".footer_scrollbox").addClass("fixed");
+/*滚动到底部显示报名*/
+$(document).scroll(function()
+{
+    if($(document).height() - $(document).scrollTop() - window.innerHeight <413 ) {
+        $(".footer_scrollbox").removeClass("fixed");
+    }
+    else{
+        $(".footer_scrollbox").addClass("fixed");
+    }
 });

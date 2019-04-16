@@ -96,21 +96,30 @@
 	text-align: center;
 }
 .main_2 ul li p {
-	font-size: 15px;
+	font-size: 14px;
 	color: #fff;
 	background: url(../img/bg09.png);
 	padding:0 25px;
 	line-height: 20px; 
 	display: none;
+	padding-bottom: 35px;
 }
 .main_2 ul li:hover{
 	transform: scale(1.2);
 	z-index: 99;
 }
-
+.main_2 ul li:hover h5 {
+	line-height: 80px;
+}
+.main_2 ul li:hover i{
+	display: block;
+	height: 255px;
+}
 
 .main_2 ul li:hover p{
 	display: block;
+	font-size: 12px;
+	
 }
 .main_3{
 	height: 300px;
@@ -147,6 +156,7 @@
 .main_5box {
 	background: url(../img/bg09.png);
 	text-align: center;
+	margin-top: 63px;
 }
 .main_5 h3 {
 	font-size: 60px;
@@ -180,7 +190,20 @@
 	border:1px solid #f5c4c4;
 	background:url(../img/bg11.png);
 	text-indent: 10px;
+	color: #eeeeee;
 }
+.main_5 ul li input::-webkit-input-placeholder{
+            color:#eeeeee;
+        }
+        input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+            color:#eeeeee;
+        }
+        input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+            color:#eeeeee;
+        }
+        input:-ms-input-placeholder{  /* Internet Explorer 10-11 */ 
+            color:#eeeeee;
+        }
 .main_5 ul li a {
 	width: 248px;
 	height: 48px;
@@ -355,7 +378,10 @@
 	border-radius:3px; 
 	margin-top: 35px;
 }
-
+.swiper_01 {
+	width: 940px;
+	margin: 0 auto;
+}
 .main_8 {
 
 }
@@ -638,16 +664,20 @@
 	text-align: center;
 	padding: 35px 0 55px 0;
 }
-.content_6 ul li{
+.main_13 ul li {
 	float: left;
-	margin: 0 5px;
+	margin-right: 14px;
 }
-.content_7 {
+.main_13 ul li:last-child {
+	margin-right: 0;
+}
+
+.main_13 ol {
 	padding-top: 30px;
 	margin: 0 auto; 
-	width: 400px;
+	width: 436px;
 }
-.content_7 li{
+.main_13 ol li{
 	float: left;
 	margin:0 5px;
 	background: #fff;
@@ -657,10 +687,8 @@
 	text-align: center;
 	line-height: 28px;
 }
-.content_7 li.active {
-	background: #cc0000;
-	color: #fff;
-	border: 1px solid #cc0000;
+.main_13 ol li a{
+	color: #333333;
 }
 .main_14 {
 	padding: 50px 0 45px 0;
@@ -727,3 +755,187 @@
 	font-size: 16px;
 }
 
+
+/*侧边栏*/
+.guide {
+    position: fixed;
+    right: 0;
+    top: 600px;
+    z-index: 9999;
+}
+
+.guide ul li {
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    margin: 10px;
+    position: relative;
+    transition: all .2s;
+}
+
+.guide ul li > div > img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.guide ul li:hover {
+    background-color: #db151c;
+    transition: all .2s;
+}
+
+.guide ul li .hide img {
+    visibility: hidden;
+    opacity: 0;
+    transition: .2s all;
+}
+
+.guide ul li:hover .hide img {
+    visibility: visible;
+    opacity: 1;
+    transition: all .2s;
+}
+
+.guide ul li:hover .hide .has-show {
+    opacity: 1;
+    visibility: visible;
+    transition: all .5s;
+}
+
+.guide ul li .hide .has-show {
+    position: absolute;
+    left: -94px;
+    background: #ffffff;
+    border-radius: 4px;
+}
+
+.guide ul li .hide .has-show span {
+    font-size: 14px;
+    color: #333333;
+    padding: 0 10px;
+    margin: 0;
+}
+
+.guide ul li .hide .has-show:after {
+    content: '';
+    display: block;
+    position: absolute;
+    border-bottom: 5px solid transparent;
+    border-right: 8px solid transparent;
+    border-left: 8px solid #ffffff;
+    border-top: 5px solid transparent;
+    right: -16px;
+    top: 14px;
+}
+
+.guide ul li .hide .has-show:after {
+    border-left: 8px solid #f6f8fb;
+}
+
+.guide ul li#to-top .hide .has-show {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #f6f8fb;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.08);
+}
+
+.guide ul li#show-code .hide .has-show {
+    width: 145px;
+    height: 174px;
+    left: -163px;
+    text-align: center;
+    padding: 25px 0;
+    background-color: #f6f8fb;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.08);
+}
+
+.guide ul li#show-code .hide .has-show p {
+    font-size: 14px;
+    color: #333333;
+    line-height: 42px;
+}
+
+.guide ul li .hide .has-show {
+    opacity: 0;
+    visibility: hidden;
+    transition: all .5s;
+}
+
+.guide ul li#contact .hide .has-show {
+    width: 200px;
+    height: 105px;
+    /*background-color: #f6f8fb;*/
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.08);
+    left: -217px;
+    /*padding: 10px;*/
+
+}
+
+.guide ul li#contact .hide .has-show a {
+    display: block;
+    width: 159px;
+    height: 39px;
+    background-color: #db151c;
+    border-radius: 20px;
+    font-size: 14px;
+    line-height: 39px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 auto 15px auto;
+}
+
+.guide ul li#contact .hide .has-show p {
+    font-size: 14px;
+    color: #333333;
+}
+
+.guide ul li#contact .hide .has-show p:first-child {
+    padding-top: 10px;
+}
+
+.guide ul li#contact .hide .has-show .qie {
+    width: 154px;
+    height: 1px;
+    background-color: #eaeaea;
+    margin: 16px auto;
+}
+
+.guide ul li#contact .hide .has-show span {
+    font-size: 14px;
+    color: #c9c9c9;
+}
+
+.guide ul li#contact .hide .has-show > img {
+    display: inline-block;
+}
+
+.guide ul li#contact .hide .has-show .title {
+    position: relative;
+    text-align: center;
+    padding: 15px 0 15px 10px;
+}
+
+.guide ul li#contact .hide .has-show .title img {
+    position: absolute;
+    top: 3px;
+    bottom: 0;
+    left: 50px;
+    margin: auto;
+}
+
+.guide ul li#contact .hide .has-show .top {
+    background: #f6f8fb;
+    padding-bottom: 10px;
+    border-radius: 4px;
+}
+
+.guide ul li#contact .hide .has-show .bottom {
+    padding: 12px;
+}

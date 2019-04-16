@@ -76,6 +76,13 @@
 	width: 480px;
 	float: right;
 }
+.main_4 div h5 {
+	font-size: 34px;
+	color: #fff;
+	width: 36px;
+	float: left;
+	margin: 65px 0 0 104px;
+}
 .main_4 a{
 	width: 360px;
 	line-height: 60px;

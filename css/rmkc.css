@@ -1,11 +1,20 @@
 .course_1 {
 	padding: 0 10px;
 }
+.course_1 h5{
+	float: right;
+	margin-top: 22px;
+	color: #999;
+}
+.course_1 h5 a{
+	color: #999;
+}
 .course_1 h3 {
 	font-size: 48px;
 	color: #333;
 	text-align: center;
 	margin-bottom: 32px;
+	padding-top:100px; 
 }
 .course_1 ul li {
 	float: left;

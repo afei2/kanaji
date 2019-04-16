@@ -1,0 +1,150 @@
+.com_h3{
+	font-size: 48px;
+	color: #333333;
+	text-align: center;
+}
+
+.main_1 h5 {
+	float: right;
+	color: #999;
+	margin: 20px 10px 0 0;
+}	
+.main_1 h5 a {
+	color: #999;
+}
+.main_1 h3 {
+	padding-top: 131px;
+}
+.main_1 p {
+	font-size: 24px;
+	line-height: 48px;
+	color: #666666;
+	text-align: center;
+	margin-top: 60px;
+}
+.main_2box {
+	height: 360px;
+	background: url(../img/bg106.png)center;
+	margin-top: 50px;
+	text-align: center;
+}
+.main_2box img{
+	padding-top: 40px;
+}
+.main_2box i{
+	font-size: 30px;
+	color: #ffffff;
+	display: block;
+	margin-top: 29px;
+}
+.main_2box h6 {
+	font-size: 36px;
+	color: #ffffff;
+	margin-top: 34px;
+}
+.main_2box h6 em {
+	font-size: 48px;
+	color: #ffb400;
+}
+.main_2box  p{
+	font-size: 36px;
+	color: #ffb400;
+	margin-top: 25px;
+}
+.main_3 h3{
+	margin-top: 100px;
+	margin-bottom: 34px;
+}
+.main_3 ul li {
+	width: 360px;
+	float: left;
+	margin-right: 60px;
+}
+.main_3 ul li h6 {
+	font-size: 24px;
+	color: #333333;
+	margin-top: 34px;
+}
+.main_3 ul li h6 em{
+	font-size: 36px;
+	color: #fff;
+	background: #cc0000;
+	margin:  0 9px 0 7px;
+}
+.main_3 ul li p{
+	font-size: 16px;
+	color: #666666;
+	margin: 19px 0 0 7px;
+	line-height: 28px;
+}
+.main_4box {
+	height: 570px;
+	background: url(../img/bg107.jpg)center;
+	margin-top: 66px;
+}
+.main_4 h3 {
+	padding-top: 75px;
+	color: #fff;
+	margin-bottom: 46px;
+}
+.main_4 div {
+	width: 50%;
+	float: left;
+}
+.main_4 div ul {
+	margin-left: 15px;
+}
+.main_4 div ul li{
+	width: 446px;
+	margin-bottom: 38px;
+}
+.main_4 div ul li img {
+	float: left;
+	display: block;
+	margin-right: 18px;
+}
+.main_4 div ul li p{
+	font-size: 24px;
+	color: #ffffff;
+}
+.main_4 div ul li p i {
+	color: #ffb400;
+}
+.main_4 a{
+	width: 250px;
+	height: 50px;
+	display: block;
+	background-color: #ffb400;
+	border-radius: 5px;
+	margin: 0 auto;
+	margin-top: 31px;
+}
+.main_4 a img {
+	float: left;
+	margin: 10px 7px 0 38px;
+}
+.main_4 a p{
+	font-size: 24px;
+	color: #ffffff;
+	line-height: 50px;
+}
+.main_5 h3 {
+	margin: 99px 0 39px 0;
+}
+.course_12 ul {
+	margin: 40px 0 75px 0;
+}
+.course_12 ul li {
+	float: left;.
+	width: 98px;
+	text-align: center;
+	margin-right: 120px;
+}
+.course_12 ul li:last-child {
+	margin-right: 0;
+}
+.course_12 ul li p {
+	font-size: 20px;
+	color: #333;
+	margin-top: 13px;
+}
