@@ -197,66 +197,7 @@ a * { *cursor: pointer }
 	position: relative;
 	height: 630px;
 }
-.wb1 {
-	position: absolute;
-	top: 0;
-	left: 40px;
-	 animation: myfirst 1s linear 0s 1 alternate;
-    /* Safari 与 Chrome: */
-    -webkit-animation: myfirst_1 1s linear 0s 1 alternate;
-}
-/*css3动画*/
-@keyframes myfirst_1
-{
-from {left:-500px;}
-to {left:40px;}
-}
 
-@-webkit-keyframes myfirst_1 /*Safari and Chrome*/
-{
-from {left:-500px;}
-to {left:40px;}
-}
-.wb3 {
-	position: absolute;
-	bottom: 145px;
-	left: 45px;
-	animation: myfirst_2 1s linear 0s 1 alternate;
-    /* Safari 与 Chrome: */
-    -webkit-animation: myfirst_2 1s linear 0s 1 alternate;
-}
-/*css3动画*/
-@keyframes myfirst_2
-{
-from {bottom:-300px;}
-to {bottom:145px;}
-}
-
-@-webkit-keyframes myfirst_2 /*Safari and Chrome*/
-{
-from {bottom:-300px;}
-to {bottom:145px;}
-}
-.wb2 {
-	position: absolute;
-	right: 32px;
-	bottom: 0;
-	animation: myfirst_3 1s linear 0s 1 alternate;
-    /* Safari 与 Chrome: */
-    -webkit-animation: myfirst_3 1s linear 0s 1 alternate;
-}
-/*css3动画*/
-@keyframes myfirst_3
-{
-from {right:-500px;}
-to {right:32px;}
-}
-
-@-webkit-keyframes myfirst_3 /*Safari and Chrome*/
-{
-from {right:-500px;}
-to {right:32px;}
-}
 
 
 .footerbox{

@@ -132,6 +132,7 @@
 	border-radius: 2px;
 	margin: 0 8px;
 	box-shadow: 2px 2px 2px #cdcdcd;
+	cursor: pointer;
 }
 .tab_1 li.active {
 	background-color: #cc0000;
@@ -258,6 +259,7 @@
 }
 .main_13 {
 	margin-top: 52px;
+	position: relative;
 }
 .main_13 h3{
 	font-size: 60px;
@@ -265,12 +267,18 @@
 	text-align: center;
 	padding: 35px 0 55px 0;
 }
+
+.main_13 ul {
+	width: 100%;
+}
 .main_13 ul li {
 	float: left;
-	margin-right: 14px;
+	margin-right: 1%;
+	width: 24%;
 }
 .main_13 ul li:last-child {
 	margin-right: 0;
+	
 }
 
 .main_13 ol {
@@ -344,4 +352,28 @@
 	font-size: 16px;
 	color: #ffffff;
 	text-align:center;
+}
+
+.swiper_9 .swiper-pagination-bullet {
+	width: 15px;
+	height: 15px;
+}
+.main_13 i {
+	display: block;
+	position: absolute;
+	bottom: 13px;
+	left: 44%;
+}
+.main_13 em {
+	display: block;
+	position: absolute;
+	bottom: 13px;
+	right: 44%;
+}
+.swiper_9 .swiper-button-prev {
+	background: url(../img/d1.png) no-repeat;
+	
+}
+.swiper_9 .swiper-button-next{
+	background: url(../img/d2.png) no-repeat
 }

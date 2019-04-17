@@ -56,3 +56,25 @@ var app = new Vue({
         cur:0 //默认选中第一个tab
    }
 });  
+
+/*滚动到底部显示报名*/
+$(document).scroll(function()
+{
+    if($(document).height() - $(document).scrollTop() - window.innerHeight <413 ) {
+        $(".footer_scrollbox").removeClass("fixed");
+    }
+    else{
+        $(".footer_scrollbox").addClass("fixed");
+    }
+});
+
+var mySwiper = new Swiper('.swiper_9',{
+  pagination :{
+    el: '.swiper_9 .swiper-pagination',
+    clickable :true,
+  },
+  navigation: {
+    nextEl: '.swiper_9 .swiper-button-next',
+    prevEl: '.swiper_9 .swiper-button-prev',
+  }
+})

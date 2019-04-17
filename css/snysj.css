@@ -164,9 +164,14 @@
 	padding:81px 0 45px 0;
 	text-align: center;
 }
-.course_9 img {
-	margin: 0 100px 0 143px;
+.course_9 b {
+	display: block;
+	width: 50%;
 	float: left;
+}
+.course_9 b img {
+	float: right;
+	margin-right: 62px;
 }
 .course_9 h6 {
 	font-size: 30px;

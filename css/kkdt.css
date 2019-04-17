@@ -76,10 +76,15 @@
 	border-bottom: 1px solid #dddddd;
 	padding: 18px 0 25px 0;
 }
-.main_right ul li img {
+.main_right ul li b{
+	display: block;
 	float: left;
 	margin-right: 20px;
+	width: 220px;
+	height: 155px;
+
 }
+
 .main_right ul li div {
 	float:left;
 	width: 510px;
@@ -101,6 +106,13 @@
 	line-height: 38px;
 	text-align: center;
 	border: 1px solid #aaa;
+}
+.main_right ul li div em a{
+	font-size: 20px;
+	color: #333;
+	border: none;
+	width: 100%;
+	text-align: left;
 }
 .main_right ul li h4 {
 	float: right;

@@ -94,6 +94,50 @@ var gallerySwiper = new Swiper('.swiper_5 #gallery',{
   }
 })
 
+var mySwiper8 = new Swiper('.swiper_8',{
+  slidesPerView : 3,
+  slidesPerGroup : 1,
+  autoplay: true,//可选选项，自动滑动
+  loop : true,
+  autoplay: {
+    delay: 1000,//1秒切换一次
+    disableOnInteraction: false,
+  },
+})
+
+mySwiper8.el.onmouseover = function(){ //鼠标放上暂停轮播
+    mySwiper8.autoplay.stop();
+  }
+mySwiper8.el.onmouseleave = function(){
+  mySwiper8.autoplay.start();
+}
+
+
+
+
+var mySwiper = new Swiper('.swiper_9',{
+  pagination :{
+    el: '.swiper_9 .swiper-pagination',
+    clickable :true,
+  },
+  navigation: {
+    nextEl: '.swiper_9 .swiper-button-next',
+    prevEl: '.swiper_9 .swiper-button-prev',
+  }
+})
+
+ var mySwiper = new Swiper (' .swiper_banners_1', {
+    on:{
+      init: function(){
+        swiperAnimateCache(this); //隐藏动画元素 
+        swiperAnimate(this); //初始化完成开始动画
+      }, 
+      slideChangeTransitionEnd: function(){ 
+        swiperAnimate(this); //每个slide切换结束时也运行当前slide动画
+        //this.slides.eq(this.activeIndex).find('.ani').removeClass('ani'); 动画只展现一次，去除ani类名
+      } 
+    }
+  }) 
 
 
 
@@ -107,3 +151,6 @@ $(document).scroll(function()
         $(".footer_scrollbox").addClass("fixed");
     }
 });
+
+
+

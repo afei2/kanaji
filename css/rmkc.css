@@ -88,6 +88,10 @@
 	line-height: 43px;
 	margin-top:21px;
 }
+.course_2 ul li div p a{
+	color: #eee;
+	display: block;
+}
 .course_2 ul li div p:hover {
 	background-color: #ffb400;
 	border-color: #ffb400;
@@ -316,15 +320,26 @@
 .course_9  {
 	margin-top: 225px;
 }
+
 .course_9 h3 {
 	font-size: 66px;
 	color: #ffb400;
 	padding:60px 0 40px 0;
 	text-align: center;
 }
-.course_9 img {
-	margin: 0 100px 0 143px;
+.swiper_01 {
+	width: 940px;
+	margin: 0 auto;
+}
+.course_9 b {
+	width: 470px;
+	display: block;
+	
 	float: left;
+}
+.course_9 b img{
+	float: right;
+	margin-right: 65px;
 }
 .course_9 h6 {
 	font-size: 30px;

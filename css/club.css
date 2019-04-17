@@ -244,7 +244,7 @@
 	margin-top: 50px;
 }
 .club_8  {
-	padding-top: 43px;
+	padding-top: 35px;
 }
 .club_8 h3 {
 	width: 163px;
@@ -253,7 +253,7 @@
 	font-size: 40px;
 	color: #fff;
 	margin: 0 auto;
-	padding-top: 40px;
+	padding-top: 35px;
 }
 .club_8 ul {
 	padding-bottom: 173px;
@@ -267,6 +267,7 @@
 	border: 2px solid #fff;
 	border-radius: 10px;
 	margin:0 7px 17px 0;
+	padding-bottom: 19px;
 }
 .club_8 ul li h6 {
 	font-size: 60px;
@@ -284,10 +285,12 @@
 	margin: 0 14px;
 	background: url(../img/bg54.png);
 	padding: 18px 0;
-	display: none
+	display: none;
+	transition: all .30s;
 }
-.club_8 ul li:hover h5 {
+.club_8 ul li div:hover h5 {
 	display: block;
+	transition: all .3s;
 }
 .club_8 ul li h5 i{
 	display: block;

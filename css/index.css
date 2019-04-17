@@ -1,3 +1,6 @@
+h3 {
+	font-weight: bold;
+}
 .main_1box {
 	background: url(../img/bg07.png);
 	height: 220px;
@@ -30,6 +33,7 @@
 .main_1box ol {
 	position: absolute;
 	top: -37px;
+	z-index: 999;
 }
 .main_1box ol li {
 	width: 582px;
@@ -61,7 +65,7 @@
 
 .main_2 {
 	position: relative;
-	height: 710px;
+	height: 640px;
 }
 .main_2 b{
 	font-size: 60px;
@@ -76,6 +80,7 @@
 .main_2  ul li {
 	width: 25%;
 	float: left;
+	transition: all .3s;
 }
 .main_2 ul li h4,.main_2 ul li h5 {
 	font-size: 30px;
@@ -102,14 +107,20 @@
 	padding:0 25px;
 	line-height: 20px; 
 	display: none;
-	padding-bottom: 35px;
+	padding-bottom: 15px;
 }
 .main_2 ul li:hover{
 	transform: scale(1.2);
+	transition: all .3s;
 	z-index: 99;
 }
 .main_2 ul li:hover h5 {
-	line-height: 80px;
+	line-height: 50px;
+	font-size: 30px;
+}
+.main_2 ul li:hover h4{
+	line-height: 50px;
+	font-size: 30px;
 }
 .main_2 ul li:hover i{
 	display: block;
@@ -125,7 +136,9 @@
 	height: 300px;
 	width: 100%;
 	overflow: hidden;
-
+}
+.main_3 img{
+	width: 100%;
 }
 .main_4 {
 	text-align: center;
@@ -249,6 +262,7 @@
 	border-radius: 2px;
 	margin: 0 8px;
 	box-shadow: 2px 2px 2px #cdcdcd;
+	cursor: pointer;
 }
 .tab_1 li.active {
 	background-color: #cc0000;
@@ -261,7 +275,7 @@
 	height: 520px;
 	box-shadow: 2px 2px 2px #f1f1f1;
 	float: left;
-	margin: 0 9px;
+	margin: 0 15px;
 }
 .content_1 div img{
 	padding: 10px;
@@ -351,9 +365,14 @@
 	padding:60px 0 40px 0;
 	text-align: center;
 }
-.main_7 img {
-	margin: 0 100px 0 143px;
+.main_7 b {
+	display: block;
+	width: 50%;
 	float: left;
+}
+.main_7 img {
+	float: right;
+	margin-right: 62px;
 }
 .main_7 h6 {
 	font-size: 30px;
@@ -404,6 +423,7 @@
 	font-size: 22px;
 	color: #fff;
 	text-align: center;
+	cursor: pointer;
 }
 .tab_ul_1 li.active {
 	background: #cc0000;
@@ -478,18 +498,19 @@
 	margin: 18px 8px 0 10px;
 }
 .main_9box {
-	background: url(../img/bg14.png);
+	background: url(../img/bg14.png) no-repeat center center;
 	height: 703px;
 	width: 100%;
 	overflow: hidden;
-	margin-top: 50px;
+	margin-top:50px;;
 }
 .main_9{
 	padding-left: 30px;
+	
 }
 .main_9 h3 {
-	margin-top: 75px;
-	font-size: 85px;
+	margin-top: 60px;
+	font-size: 75px;
 	color: #ffb400;
 	text-align: center;
 }
@@ -497,7 +518,7 @@
 	font-size: 22px;
 	color: #fff;
 	text-align: center;
-	margin: 30px 0 40px 0;
+	margin: 25px 0 35px 0;
 }
 .main_9 p em {
 	color: #ffb400;
@@ -529,6 +550,7 @@
 	color: #ffb400;
 	line-height: 30px;
 }
+
 .main_10 {
 }
 .main_10 h3 {
@@ -552,6 +574,7 @@
 	background: #ffb400;
 	margin: 0 8px;
 	border-radius: 3px;
+	cursor:pointer ;
 }
 .content_4 li.active {
 	background: #cc0000
@@ -657,6 +680,7 @@
 	height: 736px;
 	background: url(../img/bg18.png);
 	margin-top: 52px;
+	position: relative;
 }
 .main_13 h3{
 	font-size: 60px;
@@ -664,9 +688,14 @@
 	text-align: center;
 	padding: 35px 0 55px 0;
 }
+
+.main_13 ul {
+	width: 100%;
+}
 .main_13 ul li {
 	float: left;
-	margin-right: 14px;
+	margin-right: 1%;
+	width: 24%;
 }
 .main_13 ul li:last-child {
 	margin-right: 0;
@@ -760,7 +789,7 @@
 .guide {
     position: fixed;
     right: 0;
-    top: 600px;
+    top: 480px;
     z-index: 9999;
 }
 
@@ -847,7 +876,7 @@
 
 .guide ul li#show-code .hide .has-show {
     width: 145px;
-    height: 174px;
+    height: 105px;
     left: -163px;
     text-align: center;
     padding: 25px 0;
@@ -938,4 +967,10 @@
 
 .guide ul li#contact .hide .has-show .bottom {
     padding: 12px;
+}
+
+
+.swiper_9 .swiper-pagination-bullet {
+	width: 15px;
+	height: 15px;
 }

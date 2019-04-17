@@ -209,10 +209,16 @@
 	padding:77px 0 75px 0;
 	text-align: center;
 }
-.main_5 img {
-	margin: 0 100px 0 143px;
+.main_5 b {
+	display: block;
+	width: 50%;
 	float: left;
 }
+.main_5 img {
+	float: right;
+	margin-right: 62px;
+}
+
 .main_5 h6 {
 	font-size: 30px;
 	color: #333;

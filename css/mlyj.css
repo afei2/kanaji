@@ -255,9 +255,14 @@
 	padding:108px 0 45px 0;
 	text-align: center;
 }
-.main_7 img {
-	margin: 0 100px 0 143px;
+.main_7 b {
+	display: block;
+	width: 50%;
 	float: left;
+}
+.main_7 img {
+	float: right;
+	margin-right: 62px;
 }
 .main_7 h6 {
 	font-size: 30px;
